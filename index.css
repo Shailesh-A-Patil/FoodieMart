@@ -1,0 +1,43 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-items > ul {
+    display: flex;
+}
+.nav-items {
+   margin: 0px 8px;
+}
+.nav-items > ul > li{
+   list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+}
+.app-logo > img {
+    background-color: white;
+    padding: 1px;
+    width: 180px;
+    height: 90px;
+    margin: 4px;
+}
+.res-container {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+.res-container:hover {
+    border: 1px solid rgba(0, 0, 0,0.5);
+}
+.res-container > img {
+    width: 100%;
+}
+.res-list {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
