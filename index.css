@@ -41,3 +41,6 @@
     justify-content:flex-start;
     flex-wrap: wrap;
 }
+.search-container {
+    margin: 16px;
+}
